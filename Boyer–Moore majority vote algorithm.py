@@ -17,16 +17,12 @@ def majority_element(nums):
             candidate_count+=1
           else:
             candidate_count-=1
-    return candidate
 #checking if candidate occurs more than N/2 times
     for i in range (n):
-        if (arr[i] == candidate):
+        if (nums[i] == candidate):
             count += 1
               
     if (count > n // 2):
         return candidate
     else:
         return -1  
-nums = [2,3,4,4,4,5,5,5,5,5,5]  
-majority_element(nums)
-        
