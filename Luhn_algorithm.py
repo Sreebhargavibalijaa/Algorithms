@@ -1,4 +1,4 @@
-# The Luhn algorithm, also known as the modulus 10 or mod 10 algorithm, is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers, IMEI numbers
+# The Luhn algorithm, also known as the modulus 10 or mod 10 algorithm, it is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers, IMEI numbers
 def luhn_Algorithm(s):
   '''Function to check whether given credit card number is valid or not'''
   n= len(s)
